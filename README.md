@@ -139,7 +139,7 @@ our own Media Type. So how does Spring then knows how to handle this? For this w
         }
     }
 
-You can see the entire class [here](), but I'll go over the most important bits, the 'canWrite' and 'write' methods.
+You can see the entire class [here](https://github.com/nielsutrecht/spring-message-convertor/blob/master/src/main/java/com/nibado/example/jsonl/JsonlMessageConverter.java#L20), but I'll go over the most important bits, the 'canWrite' and 'write' methods.
 
 Since this is a Spring @Component it gets picked up by Spring automatically. There is unfortunately a lot of older outdated
 information on how to register Spring components, but just know that generally *either* configuring a @Bean *OR* marking it
